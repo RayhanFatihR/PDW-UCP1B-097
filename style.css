@@ -1,0 +1,30 @@
+/* Custom Styles */
+.navbar-brand span {
+    color: #0d6efd; /* Warna biru khas Tech */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header {
+    background: linear-gradient(135deg, #0d6efd 0%, #003d99 100%);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#result .alert {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
